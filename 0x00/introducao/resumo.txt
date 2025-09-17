@@ -1,0 +1,13 @@
+A arquitetura de microsserviços consiste em construir aplicações como um conjunto de serviços pequenos, autônomos e com baixo acoplamento. Ao contrário d arquitetura monolítica, onde toda a aplicação é desenvolvida como uma única unidade.
+
+Cada microsserviço é responsável por uma parte específica do sistema e pode ser desenvolvido e implantado de forma independente. Um microsserviço pode ter seu próprio banco de dados, garantindo independência total.
+
+Podemos destacar como benefícios:
+
+- Desenvolvimento independente: as equipes podem desenvolver e implantar novos componentes rapidamente.
+
+= Alta resiliência: Uma falha em um serviço não afeta o resto da aplicação.
+
+- Escalabilidade: Cada serviço pode ser escalado individualmente conforme a necessidade.
+
+A comunicação entre microsserviços pode ser feita por protocolo HTTP, por troca de mensagens e por eventos.
